@@ -295,8 +295,8 @@ footer a {
 }
 
 .slide-item img {
-  width: 100%;
-  height: 2vh; 
+  width: 100%; /* El 100% del viewport */
+  height: 2vh; /* Entre el 2% y el 5% del viewport */
 }
 
 .slide-open:checked + .slide-item {
@@ -535,7 +535,7 @@ footer a {
   }
 
   .movie {
-    width: auto;
+    width: 40vh;
     height: 50vh;
     margin: 1rem;
     background-color: var(--secondary-color);
@@ -669,7 +669,7 @@ footer a {
     max-height: 100%;
   }
   .movie {
-    width: auto;
+    width: 40vh;
     height: 50vh;
     margin: 1rem;
     background-color: var(--secondary-color);
