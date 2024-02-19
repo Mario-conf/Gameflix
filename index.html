@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+    <link rel="icon" href="/src/iconnet.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Gameflix - Netflix for Gamers</title>
+</head>
+
+<body>
+    
+  <button class="nav-btn open-btn">
+    <i class="fas fa-bars"></i>
+  </button>
+  <img id="logo" src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456" alt="Logo" class="logo" onclick="reloadPage()" />
+  <p class="text">For Gamers</p>
+
+
+  <div class="slide">
+    <div class="slide-inner">
+        <input class="slide-open" type="radio" id="slide-1" 
+              name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item">
+            <img src="https://i0.wp.com/daoratonline.com/wp-content/uploads/2018/09/ytytytyt-1024x512.png"/>
+        </div>
+        <input class="slide-open" type="radio" id="slide-2" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="/src/tw.png">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="/src/k.png">
+        </div>
+        <label for="slide-3" class="slide-control prev control-1">‹</label>
+        <label for="slide-2" class="slide-control next control-1">›</label>
+        <label for="slide-1" class="slide-control prev control-2">‹</label>
+        <label for="slide-3" class="slide-control next control-2">›</label>
+        <label for="slide-2" class="slide-control prev control-3">‹</label>
+        <label for="slide-1" class="slide-control next control-3">›</label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+        </ol>
+    </div>
+</div>
+  
+<br>
+
+  <main id="main"></main>
+
+
+
+
+
+  <div class="nav nav-black">
+    <div class="nav nav-red">
+      <div class="nav nav-white">
+        <button class="nav-btn close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <img id="logo" src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456" alt="Logo" class="logo" onclick="reloadPage()" />
+        
+
+
+        <ul class="list">
+          <li><form id="form"><input type="text" id="search" class="search" placeholder="Search"></form></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="https://github.com/Mario-conf/Gameflix">Support & code</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about">
+    <p style="text-align: justify; margin-left: 20vh; margin-right: 20vh; margin-top: 3vh; margin-bottom: 5vh;">
+      GameFlix es una plataforma en línea diseñada específicamente para la comunidad de jugadores, similar a Netflix, pero con un enfoque exclusivo en contenido de juego. Al igual que Netflix, los usuarios pueden navegar a través de una amplia gama de videos de alta calidad creados por YouTubers y streamers de juegos populares. Desde videos de "Let's Play" y reseñas de juegos hasta trucos y consejos avanzados, GameFlix ofrece una experiencia personalizada para los amantes de los videojuegos. Además, los usuarios pueden interactuar con la comunidad a través de chats en vivo y foros dedicados, así como crear listas de reproducción personalizadas y recibir recomendaciones personalizadas según sus preferencias de juego. Es la mejor manera de descubrir, ver y compartir contenido relacionado con los videojuegos en un solo lugar.
+    </p>
+    
+  </div>
+    <script>  
+    const open_btn = document.querySelector('.open-btn')
+    const close_btn = document.querySelector('.close-btn')
+    const nav = document.querySelectorAll('.nav')
+    
+    open_btn.addEventListener('click', () => {
+        nav.forEach(nav_el => nav_el.classList.add('visible'))
+    })
+    
+    close_btn.addEventListener('click', () => {
+        nav.forEach(nav_el => nav_el.classList.remove('visible'))
+    })
+    </script>  
+<script src="script.js"></script>
+<footer>
+  <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
+</footer>
+</body>
+</html>
