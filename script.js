@@ -37,14 +37,15 @@ function showMovies(movies) {
 }
 
 function getClassByRate(rating) {
-  if (rating >= 8) {
+  if (rating >= 10) {
     return 'green';
-  } else if (rating >= 5) {
+  } else if (rating >= 1) {
     return 'orange';
   } else {
     return 'red';
   }
 }
+
 
 function searchMovies(event) {
   event.preventDefault();
