@@ -110,5 +110,24 @@
 <footer>
   <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
 </footer>
+<script>
+  window.onload = function() {
+    var slides = document.querySelectorAll('.slide-item img');
+    var slideInner = document.querySelector('.slide-inner');
+    resizeImages(slides, slideInner);
+    window.addEventListener('resize', function() {
+      resizeImages(slides, slideInner);
+    });
+  };
+  
+  function resizeImages(slides, slideInner) {
+    var width = slideInner.offsetWidth;
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].style.width = width + 'px';
+      slides[i].style.height = 'auto';
+    }
+  }
+  </script>
+  
 </body>
 </html>

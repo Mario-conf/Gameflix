@@ -68,5 +68,33 @@
     "rating": 20,
     "description": "David Cánovas Martínez, conocido como TheGrefg, es un streamer y youtuber español especializado en videojuegos de acción",
     "enlace": "https://www.twitch.tv/thegrefg"
+  },
+  {
+    "title": "Chiches",
+    "rating": 0.5,
+    "image" : "https://pbs.twimg.com/profile_banners/1332600433/1686163185/1500x500",
+    "description": "Chiches es un Youtuber español que sube videos dedicados a gameplays de videojuegos. Normalmente juega Cities Skylines y Los Sims 4 pero casi siempre en cada video juega un videojuego diferente.",
+    "enlace": "https://www.youtube.com/user/ChichesTH"
+  },
+  {
+    "title": "ZellenDust",
+    "rating": 2.85,
+    "image" : "https://i.pinimg.com/564x/ba/dd/76/badd7679e56b259f3115946af9deca59.jpg",
+    "description": "Un Youtuber conocido por su humor único.Sus videos a menudo dejan a los espectadores riendo a carcajadas.",
+    "enlace": "https://www.youtube.com/@ZellenDust"
+  },
+  {
+    "title": "JWulen",
+    "rating": 1.6,
+    "image" : "https://i.ytimg.com/vi/g3M3FjrJFCQ/maxresdefault.jpg",
+    "description": "Este Youtuber es famoso por su ingenio. Sus seguidores disfrutan de su sentido del humor y su contenido entretenido.",
+    "enlace": "https://www.youtube.com/@JWulen"
+  },
+  {
+    "title": "littleragergirl",
+    "rating": 0.60,
+    "image" : "https://i.pinimg.com/736x/25/f0/39/25f0396efd9418b05cd50ad38037ae96.jpg",
+    "description": " Una streamer destacada en el Gaming, reconocida por su contenido centrado en el popular videojuego League of Legends.",
+    "enlace": "https://www.twitch.tv/littleragergirl"
   }
 ]
