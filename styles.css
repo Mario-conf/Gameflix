@@ -62,7 +62,7 @@ main {
 
 .movie {
   width: 300px;
-  height: 41vh;
+  height: 360px;
   margin: 1rem;
   background-color: var(--secondary-color);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
@@ -70,6 +70,7 @@ main {
   overflow: hidden;
   border-radius: 3px;
 }
+
 
 .movie img {
   width:100%;
@@ -547,7 +548,8 @@ footer a {
     transform: translateY(101%);
     overflow-y: auto;
     transition: transform 0.3s ease-in;
-  }
+  }
+
   
 }
 
@@ -557,7 +559,8 @@ footer a {
 
 
 
-@media (max-width: 319px) {
+@media (max-width: 319px) {
+
   
   .slide-control {
     z-index: 3;
