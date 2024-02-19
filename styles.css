@@ -683,7 +683,7 @@ footer a {
  }
 @media (max-width: 767px) {
   #about p {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -691,7 +691,7 @@ footer a {
 
 @media (max-width: 319px) {
   #about p {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
