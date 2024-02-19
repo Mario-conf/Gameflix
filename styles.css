@@ -696,3 +696,37 @@ footer a {
     transition: transform 0.3s ease-in;
   }
 }
+
+
+
+
+#about p {
+    width: 80%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+@media (max-width: 767px) {
+  #about p {
+    width: 80%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 319px) {
+  #about p {
+    width: 80%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
