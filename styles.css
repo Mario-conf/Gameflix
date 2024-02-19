@@ -414,3 +414,68 @@ footer a {
 .nav {
   z-index: 3; 
 }
+
+
+
+/* Estilo para dispositivos móviles y tablets */
+@media (max-width: 1023px) {
+  body {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .movie {
+    width: 200px;
+    margin: 0.5rem;
+  }
+
+  .slide-control {
+    font-size: 30px;
+    height: 30px;
+    line-height: 25px;
+  }
+
+  .slide-circulo {
+    font-size: 25px;
+  }
+}
+
+/* Estilo para dispositivos móviles */
+@media (max-width: 767px) {
+  body {
+    font-size: 0.7rem;
+  }
+
+  .movie {
+    width: 100%;
+  }
+
+  .slide-control {
+    font-size: 25px;
+    height: 25px;
+    line-height: 20px;
+  }
+
+  .slide-circulo {
+    font-size: 20px;
+  }
+
+  .list li {
+    margin: 10px 0;
+  }
+
+  footer {
+    padding: 5px;
+  }
+}
+
+/* Estilo para resoluciones menores que 320px (ejemplo: iPhone 4 y similares) */
+@media (max-width: 319px) {
+  .slide-circulo {
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 2px;
+  }
+}
