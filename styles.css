@@ -295,8 +295,8 @@ footer a {
 }
 
 .slide-item img {
-  width: 100%; /* El 100% del viewport */
-  height: 2vh; /* Entre el 2% y el 5% del viewport */
+  width: 100%;
+  height: 2vh; 
 }
 
 .slide-open:checked + .slide-item {
