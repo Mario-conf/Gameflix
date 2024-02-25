@@ -13,7 +13,7 @@
 1. Abre el archivo `index.html` en tu navegador.
 2. Navega por las secciones para conocer detalles de los distintos streamers y youtubers.
 3. Sigue los enlaces a las plataformas de Twitch y YouTube para explorar el contenido de los creadores.
-4. Conéctate conmigo en redes sociales para actualizaciones y nuevos proyectos: [GitHub](https://github.com/Gameflix).
+4. Conéctate conmigo en redes sociales para actualizaciones y nuevos proyectos: [GitHub](https://github.com/mario-conf/).
 
 ### Únete a Nuestra Comunidad
 
@@ -21,7 +21,7 @@
 
 ### Conecta con Gameflix
 
-Sigue nuestra travesía en el mundo de los videojuegos y la diversión. Conéctate con nosotros en [Instagram](https://www.instagram.com/Gameflix) para contenido exclusivo y emocionante. ¡Te esperamos en nuestra comunidad!
+Sigue nuestra travesía en el mundo de los videojuegos y la diversión. Conéctate con nosotros en [Instagram](https://www.instagram.com/mario.conf/) para contenido exclusivo y emocionante. ¡Te esperamos en nuestra comunidad!
 
 ---
 
@@ -40,7 +40,7 @@ Welcome to Gameflix, the paradise for gamers! In this digital space, you will fi
 1. Open the `index.html` file in your browser.
 2. Navigate through the sections to learn details about different streamers and YouTubers.
 3. Follow the links to the Twitch and YouTube platforms to explore the creators' content.
-4. Connect with us on social media for updates and new projects: [GitHub](https://github.com/Gameflix).
+4. Connect with us on social media for updates and new projects: [GitHub](https://github.com/mario-conf/).
 
 ### Join Our Community
 
@@ -48,6 +48,6 @@ Are you a fan of video games? Connect with us on [GitHub](https://github.com/Gam
 
 ### Connect with Gameflix
 
-Follow our journey in the world of video games and fun. Connect with us on [Instagram](https://www.instagram.com/Gameflix) for exclusive and exciting content. We look forward to seeing you in our community!
+Follow our journey in the world of video games and fun. Connect with us on [Instagram](https://www.instagram.com/mario.conf/) for exclusive and exciting content. We look forward to seeing you in our community!
 
 ---
