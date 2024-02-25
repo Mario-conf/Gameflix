@@ -17,7 +17,7 @@
 
 ### Únete a Nuestra Comunidad
 
-¿Eres un fanático de los videojuegos? Conéctate con nosotros en [GitHub](https://github.com/Gameflix) para acceder a los últimos proyectos, colaboraciones y código abierto. Forma parte de una comunidad apasionada por la diversión y la creatividad en el mundo de los videojuegos.
+¿Eres un fanático de los videojuegos? Conéctate con nosotros en [GitHub](https://github.com/mario.conf/) para acceder a los últimos proyectos, colaboraciones y código abierto. Forma parte de una comunidad apasionada por la diversión y la creatividad en el mundo de los videojuegos.
 
 ### Conecta con Gameflix
 
@@ -44,7 +44,7 @@ Welcome to Gameflix, the paradise for gamers! In this digital space, you will fi
 
 ### Join Our Community
 
-Are you a fan of video games? Connect with us on [GitHub](https://github.com/Gameflix) to access the latest projects, collaborations, and open source. Be part of a community passionate about fun and creativity in the world of video games.
+Are you a fan of video games? Connect with us on [GitHub](https://github.com/mario.conf/) to access the latest projects, collaborations, and open source. Be part of a community passionate about fun and creativity in the world of video games.
 
 ### Connect with Gameflix
 
